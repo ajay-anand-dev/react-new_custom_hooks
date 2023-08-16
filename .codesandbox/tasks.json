@@ -9,13 +9,10 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "dev-backend": {
-      "name": "dev-backend",
+    "backend": {
+      "name": "backend",
       "command": "yarn backend",
-      "runAtStart": true,
-      "preview": {
-        "port": 3000,
-      }
+      "runAtStart": true
     },
     "dev": {
       "name": "dev",
