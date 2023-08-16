@@ -2,6 +2,7 @@
   "name": "vite-react-starter",
   "version": "0.0.0",
   "scripts": {
+    "backend": "node backend/app.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
